@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "NoSQL social network api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbushehry/social-network-api.git"
+  },
+  "author": "cameron bushehry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbushehry/social-network-api/issues"
+  },
+  "homepage": "https://github.com/cbushehry/social-network-api#readme"
+}
