@@ -10,7 +10,6 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
-// moongose setup before port listener.
 
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
